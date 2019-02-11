@@ -1,4 +1,5 @@
-#Scikit-learn
+Scikit-learn
+===============
 
 scikit-learn is a Python module for machine learning built on top of SciPy and distributed under the 3-Clause BSD license.
 
@@ -9,6 +10,7 @@ It is currently maintained by a team of volunteers.
 Note scikit-learn was previously referred to as scikits.learn.
 
 Important links
+==================
 Official source code repo: https://github.com/scikit-learn/scikit-learn
 HTML documentation (stable release): http://scikit-learn.org
 HTML documentation (development version): http://scikit-learn.org/dev/
@@ -16,7 +18,9 @@ Download releases: http://sourceforge.net/projects/scikit-learn/files/
 Issue tracker: https://github.com/scikit-learn/scikit-learn/issues
 Mailing list: https://lists.sourceforge.net/lists/listinfo/scikit-learn-general
 IRC channel: #scikit-learn at irc.freenode.net
+
 Dependencies
+==================
 scikit-learn is tested to work under Python 2.6, Python 2.7, and Python 3.4. (using the same codebase thanks to an embedded copy of six). It should also work with Python 3.3.
 
 The required dependencies to build the software are NumPy >= 1.6.1, SciPy >= 0.9 and a working C/C++ compiler. For the development version, you will also require Cython >=0.23.
@@ -28,6 +32,7 @@ This configuration matches the Ubuntu Precise 12.04 LTS release from April 2012.
 scikit-learn also uses CBLAS, the C interface to the Basic Linear Algebra Subprograms library. scikit-learn comes with a reference implementation, but the system CBLAS will be detected by the build system and used if present. CBLAS exists in many implementations; see Linear algebra libraries for known issues.
 
 Install
+=================
 This package uses distutils, which is the default way of installing python modules. To install in your home directory, use:
 
 python setup.py install --user
@@ -38,6 +43,7 @@ sudo python setup.py install
 For more detailed installation instructions, see the web page http://scikit-learn.org/stable/install.html
 
 Development
+================
 Code
 GIT
 You can check the latest sources with the command:
@@ -52,6 +58,7 @@ Quick tutorial on how to go about setting up your environment to contribute to s
 Before opening a Pull Request, have a look at the full Contributing page to make sure your code complies with our guidelines: http://scikit-learn.org/stable/developers/index.html
 
 Testing
+=================
 After installation, you can launch the test suite from outside the source directory (you will need to have the nose package installed):
 
 $ nosetests -v sklearn
